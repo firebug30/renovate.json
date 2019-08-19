@@ -11,22 +11,11 @@
       "after 3am and before 7am on the first day of the month"
     ]
   },
-  "packageRules": [{
+  "packageRules": [
+    {
       "depTypeList": ["devDependencies"],
       "updateTypes": ["minor", "patch", "pin"],
       "automerge": true
-    },
-    {
-      "packageNames": ["@types/react"],
-      "allowedVersions": "<=16.5"
-    },
-    {
-      "packageNames": ["@types/react-native"],
-      "allowedVersions": "<=0.57"
-    },
-    {
-      "packageNames": ["prisma", "prisma-client-lib", "graphql"],
-      "automerge": false
     }
   ]
 }
